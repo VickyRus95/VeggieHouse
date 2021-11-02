@@ -36,7 +36,7 @@ function check() { // Función que chequea el login, si el usuario existe o no
 
   } else {
     // Si el usuario no existe, le va a decir que no posee cuenta
-    swal('Lo siento, no posee cuenta en esta página');
+    swal('Lo siento, no posee cuenta en esta página.');
   }
 }
 
