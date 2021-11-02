@@ -1,0 +1,190 @@
+.body {
+  height: 1000px;
+  width: 1000px;
+}
+/*.main{
+    background-color: #9ec8f0;
+}*/
+.title {
+  letter-spacing: 0;
+  padding: 25px;
+  margin: 0 auto;
+  color: #2f8a27;
+  text-align: center;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: "Didot", cursive;
+  font-size: 40px;
+  border-radius: 1em;
+  border-style: dotted;
+  border-color: #c1ee8d;
+  display: inline-block;
+}
+#mark {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 30px;
+}
+#navitem {
+  color: #463d3d;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+.h3 {
+  padding: 30px;
+  margin: 30 px;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 30px;
+}
+
+.logo {
+  height: 100px;
+  width: 120px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  animation: bounceIn 0.6s;
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s cubic-bezier(0.8, 1.8, 0.75, 0.75);
+  cursor: pointer;
+  border-radius: 100%;
+  float: left;
+}
+
+.logo:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.btn-primary {
+  display: flex;
+}
+
+.h2 {
+  position: absolute;
+}
+.container {
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container aside {
+  padding: 10px;
+  width: 100px;
+}
+.list-group {
+  min-width: 30px;
+}
+
+.indexImage {
+  width: 600px;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 1em;
+  border-style: dotted;
+  border-color: #c1ee8d;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 70px;
+  grid-template-rows: 70px;
+  grid-template-areas: "Footer Footer Footer";
+}
+.grid .item1 {
+  background-color: #413e3e;
+  grid-area: Footer;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: bottom;
+  padding: 5px;
+  align-items: center;
+}
+.grid .item1 .comidas,
+.grid .item1 .veggiehouse,
+.grid .item1 .contacto {
+  color: #f3f5f4;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+/*contacto*/
+.wrapper {
+  text-align: left;
+  height: 650px;
+  padding-top: 40px;
+  padding-left: 40px;
+  width: 200px;
+}
+.contactMain {
+  background-color: #d2e9b8;
+}
+
+.form {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+}
+.image {
+  float: right;
+  padding-right: 30px;
+  margin: 60px;
+  width: 500px;
+  height: 500px;
+}
+
+.form button {
+  float: right;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+}
+
+#boton {
+  float: right;
+  background-color: white;
+  color: #58d496;
+}
+
+.imagenveggie {
+  margin: 40px;
+
+  padding: 30px;
+}
+#login-form {
+  padding: 15px;
+  margin: 10px;
+  font-family: "Zen Kurenaido", sans-serif;
+  text-align: center;
+}
+#register-form {
+  padding: 15px;
+  margin: 10px;
+  font-family: "Zen Kurenaido", sans-serif;
+  text-align: center;
+}
+.welcomeMessage {
+  float: right;
+  width: 30%;
+  border-radius: 1em;
+  border-style: dotted;
+  border-color: #c1ee8d;
+  padding: 5px;
+  margin: 100px;
+  background-color: #d2e9b8;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+}
+.mainindex {
+  background-color: #faf8e5;
+  height: 650px;
+}

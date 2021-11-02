@@ -1,0 +1,137 @@
+[
+  {
+    "nombre": "Burger",
+    "precio": 400,
+    "id": 1001,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 100,
+    "img": "./sources/notburger.jpg"
+  },
+  {
+    "nombre": "Hot Dog",
+    "precio": 280,
+    "id": 1002,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 100,
+    "img": "./sources/hotdog1.jpg"
+  },
+  {
+    "nombre": "Pizza",
+    "precio": 900,
+    "id": 1003,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 100,
+    "img": "./sources/pizza.jpg"
+  },
+  {
+    "nombre": "Brochettes",
+    "precio": 480,
+    "id": 1004,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/brochettes.jpg"
+  },
+  {
+    "nombre": "Ensalada",
+    "precio": 500,
+    "id": 1005,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/salad.jpg"
+  },
+  {
+    "nombre": "Choripan",
+    "precio": 300,
+    "id": 1006,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/chori1.jpg"
+  },
+  {
+    "nombre": "Empanadas x12",
+    "precio": 800,
+    "id": 1007,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/empanadas.jpg"
+  },
+  {
+    "nombre": "Lasagna",
+    "precio": 800,
+    "id": 1008,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/lasagna.jpg"
+  },
+  {
+    "nombre": "Full Pimientos",
+    "precio": 500,
+    "id": 1009,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/pimientos grillados.jpg"
+  },
+  {
+    "nombre": "Seitan BBQ",
+    "precio": 600,
+    "id": 1010,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/seitanbbq.jpg"
+  },
+  {
+    "nombre": "Ramen",
+    "precio": 700,
+    "id": 1011,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/ramen.jpg"
+  },
+  {
+    "nombre": "Tacos",
+    "precio": 450,
+    "id": 1012,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/tacos.png"
+  },
+  {
+    "nombre": "Tofu Marinado",
+    "precio": 350,
+    "id": 1013,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/tofumarinado.jpg"
+  },
+  {
+    "nombre": "Full Champi",
+    "precio": 800,
+    "id": 1013,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/portobellosrellenos.jpg"
+  },
+  {
+    "nombre": "GrilledVeggies",
+    "precio": 500,
+    "id": 1014,
+    "cantidadElegida": 0,
+    "subtotal": 0,
+    "stock": 200,
+    "img": "./sources/verdurasgrilladas.jpg"
+  }
+]

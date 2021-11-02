@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS clase 4</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="VeggieHouse es una pagina que te ofrece las comidas vegetarianas mas deliciosas.">
+  <meta name="keywords"
+    content="veggie food, comida vegetariana, hamburguesa vegetariana, hot dog vegetariano, burger, tofu,seitan">
+  <meta name="author" content="Victoria Rus">
+  <meta name="copyright" content="VeggieHouse S.A.">
+  <link rel="shortcut icon" href="sources/logo.jpg" type="image x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <script src="jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>VeggieHouse</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="sources/images.png" class="logo" alt="logo veggiehouse" class="d-inline-block align-text-top">
+          <h1 class="title">VeggieHouse</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comidas.html">Comidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="contactMain">
+      <div class="image">
+        <img src="sources/GettyImages-1247930626-500px.jpg" class="contactImage">
+      </div>
+      <div class="wrapper">
+        <div class="form">
+          <form id="myForm">
+            <div class="form-row">
+              <div id="textForm">
+                <label for="Name">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+              </div>
+              <div>
+                <label for="LastName">Apellido</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Address">Dirección</label>
+              <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion">
+            </div>
+            <div class="form-group">
+              Motivo de consulta:
+              <br>
+              <textarea rows="5" cols="50" name="description"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Me gustaría recibir mas información sobre VeggieHouse.
+                </label>
+              </div>
+            </div>
+
+            <button id="boton" type="button" type="submmit" id="submitBtn" class="btn-one" data-toggle="collapse"
+              data-target="#demo">Enviar</button>
+            <p id="demo" class="collapse"></p>
+          </form>
+        </div>
+      </div>
+
+  </main>
+  <!--FOOTER-->
+  <section class="grid">
+    <div class="item1">
+      <div>
+        <a class="comidas" href="comidas.html">Comidas</a>
+      </div>
+      <div>
+        <a class="veggiehouse" href="index.html">VeggieHouse</a>
+      </div>
+      <div>
+        <a class="contacto" href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </section>
+  <script src="contacto.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>

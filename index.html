@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS clase 4</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="VeggieHouse es una pagina que te ofrece las comidas vegetarianas mas deliciosas.">
+  <meta name="keywords"
+    content="veggie food, comida vegetariana, hamburguesa vegetariana, hot dog vegetariano, burger, tofu,seitan">
+  <meta name="author" content="Victoria Rus">
+  <meta name="copyright" content="VeggieHouse S.A.">
+  <link rel="shortcut icon" href="sources/logo.jpg" type="image x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>VeggieHouse</title>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="sources/images.png" class="logo" alt="logo veggiehouse" class="d-inline-block align-text-top">
+          <h1 class="title">VeggieHouse</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comidas.html">Comidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="mainindex">
+    <form id="login-form" type="submit" action="#">
+      <input id="userName" type="text" placeholder="Ingrese Usuario" value="" />
+      <input id="userPass" type="password" placeholder="Ingrese Contraseña" value="" />
+      <input id="login_btn" type="submit" value="Login" onClick="check()" />
+    </form>
+    <form id="register-form" type="submit" action="#">
+      <input id="nombre" type="text" placeholder="Nombre" value="" />
+      <input id="contraseña" type="password" placeholder="Contraseña" value="" />
+      <input id="rgstr_btn" type="submit" value="Crear Cuenta" onClick="store()" />
+    </form>
+    <aside class="welcomeMessage">
+      <h2>Bienvenidos a VeggieHouse!!!</h2>
+      <p>Espero que encuentre aquí lo que estas buscando. Tenemos muchos platos deliciosos y completamente vegetarianos
+        para tu deleite.</p>
+      <p>Cualquier duda y/o consulta, no dudes en escribirnos. Podes dejarnos un mensajito y te escribiremos pronto.
+        Saludos! <a href="contacto.html">Contacto</a></p>
+    </aside>
+    <div>
+      <img src="sources/pizza-vegetariana-m (1).jpg" class="indexImage" alt="pizza">
+    </div>
+  </main>
+  <!--FOOTER-->
+  <section class="grid">
+    <div class="item1">
+      <div>
+        <a class="comidas" href="comidas.html">Comidas</a>
+      </div>
+      <div>
+        <a class="veggiehouse" href="index.html">VeggieHouse</a>
+      </div>
+      <div>
+        <a class="contacto" href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
